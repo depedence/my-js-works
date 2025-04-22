@@ -1,4 +1,4 @@
 test("Проверка умножения двух чисел", () => {
-    expect(5 * 10).toBe(50)
-    expect(20 * 5).toEqual(100)
-})
+  expect(5 * 10).toBe(50);
+  expect(20 * 5).toEqual(100);
+});

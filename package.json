@@ -1,15 +1,16 @@
 {
-    "name": "app",
-    "version": "1.0.0",
-    "devDependencies": {
-        "jest": "^29.7.0",
-        "nodemon": "^3.1.9",
-        "express": "^5.1.0"
-    },
-
-    "scripts": {
-        "test": "jest",
-        "server": "nodemon server.js",
-        "app": "nodemon app.js"
-    }
+  "name": "app",
+  "version": "1.0.0",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "express": "^5.1.0",
+    "prettier": "3.2.5"
+  },
+  "scripts": {
+    "test": "jest",
+    "server": "nodemon server.js",
+    "app": "nodemon app.js",
+    "prettier": "prettier --write ."
+  }
 }
