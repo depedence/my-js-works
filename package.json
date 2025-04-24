@@ -11,6 +11,7 @@
     "test": "jest",
     "server": "nodemon server.js",
     "app": "nodemon app.js",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "learn": "node learn/zxc.js"
   }
 }
