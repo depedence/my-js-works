@@ -9,6 +9,7 @@
   },
   "scripts": {
     "test": "jest",
-    "start": "node JEST-tests/script.js"
+    "start": "node JEST-tests/script.js",
+    "prettier": "prettier --write ."
   }
 }
