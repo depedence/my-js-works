@@ -10,10 +10,6 @@ describe("Группа тестов по проверке арифметичес
   test("Умножение 5 * 4", () => {
     expect(5 * 4).toBe(20);
   });
-
-  afterAll(() => {
-    console.log("afterAll : Тесты выполнены успешно");
-  });
 });
 
 const shoppingList = [
