@@ -1,0 +1,13 @@
+<!-- index.html -->
+<html>
+  <body>
+    <h1 id="title">Привет</h1>
+    <button id="change">Поменять заголовок</button>
+
+    <script>
+      document.getElementById('change').addEventListener('click', () => {
+        document.getElementById('title').textContent = 'Заголовок изменён!';
+      });
+    </script>
+  </body>
+</html>
