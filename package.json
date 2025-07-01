@@ -11,7 +11,7 @@
     "test": "jest",
     "start": "node JEST-tests/script.js",
     "prettier": "prettier --write .",
-    "stepik": "node course/func.js"
+    "stepik": "node course/arrays.js"
   },
   "dependencies": {
     "node-fetch": "^3.3.2"
